@@ -1,11 +1,11 @@
-# CMS-frontend · Content Management System Frontend
+# Tomato Novel · Frontend (Vue3)
 
 [![Vue 3](https://img.shields.io/badge/Vue-3.x-green)](https://vuejs.org/)
 [![TypeScript](https://img.shields.io/badge/Language-TypeScript-blue)](https://www.typescriptlang.org/)
 [![Element Plus](https://img.shields.io/badge/UI-Element_Plus-orange)](https://element-plus.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-> 🌟 **CMS-frontend** is a Vue3 + TypeScript-powered frontend for an article management system. Styled to emulate the Tomato Novel platform, it supports user registration/login, article browsing, nested comments, author tools, and multi-role navigation. Designed to work seamlessly with [`CMS-backend`](https://github.com/Tiks05/CMS-backend).
+📘 tomato-novel-frontend-vue3 is a modern frontend application that fully reconstructs the official Tomato Novel website, built with Vue3 + TypeScript + Element Plus. It implements key features of the platform, including user registration and login, novel browsing, chapter reading, nested comment interactions, author tools, and multi-role navigation. Designed to work seamlessly with [tomato-novel-backend-flask](https://github.com/Tiks05/tomato-novel-backend-flask).
 
 ---
 
