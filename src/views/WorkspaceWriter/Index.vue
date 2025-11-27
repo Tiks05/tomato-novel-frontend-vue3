@@ -54,7 +54,7 @@ const activeMenuIds = ref(new Set())
 const nowid = ref(1)
 
 const navMenus = [
-  { path: '/home', label: 'CMS' },
+  { path: '/home', label: '番茄小说网' },
   { path: '/classroom', label: '作家课堂' },
   { path: '/benefit', label: '作家福利' },
   { path: '/notification', label: '消息通知' }

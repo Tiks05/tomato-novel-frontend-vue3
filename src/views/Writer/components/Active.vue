@@ -179,7 +179,7 @@ const greetingText = computed(() => {
 const greetingDescHtml = computed(() => {
   if (userStore.isLogin && userStore.isAuthor) {
     const days = userStore.daysAsAuthor
-    return `今天是你在CMS创作的第 <b class="highlight">${days}</b> 天`
+    return `今天是你在番茄创作的第 <b class="highlight">${days}</b> 天`
   }
   return '欢迎成为番茄作家'
 })

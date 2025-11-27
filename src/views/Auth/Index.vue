@@ -3,7 +3,7 @@
   <div class="top-nav">
     <div class="nav-left" @click="goTo('/home')">
       <img :src="logo" class="nav-logo" />
-      CMS
+      番茄小说网
       <span class="divider">|</span>
       <span class="nav-item-left" @click.stop="goTo('/writer')">作家专区</span>
     </div>
@@ -26,7 +26,7 @@
       class="bg-video"
       @canplaythrough="videoLoaded = true"
     >
-      <source :src="videoSrc" type="video/mp4" />
+      <source :src="videoSrc" type="video/webm" />
     </video>
 
     <!-- 遮罩 -->
@@ -41,7 +41,7 @@
   </div>
 
   <!-- 页脚 -->
-  <div class="footer-text">©2025 CMS | 本系统仅供学习与教学使用</div>
+  <div class="footer-text">©2025 番茄小说网 | 本系统仅供学习与教学使用</div>
 </template>
 
 <script setup lang="ts">
@@ -51,8 +51,8 @@ import { useGoTo } from '@/composables/useGoTo'
 const { goTo } = useGoTo()
 const videoLoaded = ref(false)
 
-const poster = new URL('@/assets/images/auth/welcome.png', import.meta.url).href
-const videoSrc = new URL('@/assets/movies/auth/welcome.mp4', import.meta.url).href
+const poster = new URL('@/assets/images/auth/welcome.webp', import.meta.url).href
+const videoSrc = new URL('@/assets/movies/auth/welcome.webm', import.meta.url).href
 const logo = new URL('@/assets/icons/logo/icons8-firebase-undefined-32.png', import.meta.url).href
 </script>
 
@@ -74,7 +74,7 @@ const logo = new URL('@/assets/icons/logo/icons8-firebase-undefined-32.png', imp
 }
 
 .nav-left {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1;
   height: 24px;
   display: flex;

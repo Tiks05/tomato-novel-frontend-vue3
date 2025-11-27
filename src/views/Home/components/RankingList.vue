@@ -1,7 +1,7 @@
 <template>
   <div class="ranking_wrapper">
     <div class="ranking_title">
-      <h2>CMS巅峰榜</h2>
+      <h2>番茄巅峰榜</h2>
       <p>根据作品好评、人气、互动等综合得分排行</p>
     </div>
     <div class="ranking_swiper">
@@ -130,11 +130,11 @@ onMounted(async () => {
 
 .ranking_title h2 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: bold;
   color: #000;
   position: relative;
   width: 156px;
-  padding: 0 15px;
+  padding: 0 18px;
   line-height: 1;
 }
 

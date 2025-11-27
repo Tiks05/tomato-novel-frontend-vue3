@@ -24,16 +24,16 @@
 
 ## 🧱 Tech Stack
 
-| Layer         | Tech                          |
-|---------------|-------------------------------|
-| Framework     | Vue 3                         |
-| Language      | TypeScript                    |
-| UI Library    | Element Plus                  |
-| State Manager | Pinia                         |
-| Router        | Vue Router 4                  |
-| API Layer     | Axios (via utils/request.ts)  |
-| CSS Tools     | SCSS + CSS Modules            |
-| Icons         | Iconify / SVGs                |
+| Layer         | Tech                         |
+| ------------- | ---------------------------- |
+| Framework     | Vue 3                        |
+| Language      | TypeScript                   |
+| UI Library    | Element Plus                 |
+| State Manager | Pinia                        |
+| Router        | Vue Router 4                 |
+| API Layer     | Axios (via utils/request.ts) |
+| CSS Tools     | SCSS + CSS Modules           |
+| Icons         | Iconify / SVGs               |
 
 ---
 
@@ -41,15 +41,15 @@
 
 CMS-frontend/
 ├── src/
-│   ├── apis/                # Encapsulated API modules
-│   ├── assets/              # Static resources (icons, images, styles)
-│   ├── components/          # Global reusable components
-│   ├── composables/         # Custom Vue hooks
-│   ├── router/              # Route definitions
-│   ├── stores/              # Pinia state management
-│   ├── styles/              # SCSS and Element Plus themes
-│   ├── utils/               # Utilities (request, qrcode)
-│   └── views/               # Pages (Home, Auth, Library, Workspace, Writer)
+│ ├── apis/ # Encapsulated API modules
+│ ├── assets/ # Static resources (icons, images, styles)
+│ ├── components/ # Global reusable components
+│ ├── composables/ # Custom Vue hooks
+│ ├── router/ # Route definitions
+│ ├── stores/ # Pinia state management
+│ ├── styles/ # SCSS and Element Plus themes
+│ ├── utils/ # Utilities (request, qrcode)
+│ └── views/ # Pages (Home, Auth, Library, Workspace, Writer)
 ├── public/
 ├── index.html
 ├── tsconfig.json

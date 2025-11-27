@@ -116,7 +116,7 @@ const greetingText = computed(() => {
 
 const greetingDescHtml = computed(() => {
   if (userStore.isLogin && userStore.isAuthor) {
-    return `今天是你在 CMS 创作的第 <b class="highlight">${userStore.daysAsAuthor}</b> 天，努力加油码字吧`
+    return `今天是番茄陪你的第 <b class="highlight">${userStore.daysAsAuthor}</b> 天，努力加油码字吧`
   }
   return '欢迎来到番茄作家专区，快来开启创作吧！'
 })

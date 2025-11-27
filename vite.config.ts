@@ -14,19 +14,19 @@ export default defineConfig({
     vue(),
     vueDevTools(),
     AutoImport({
-      resolvers: [ElementPlusResolver()],
+      resolvers: [ElementPlusResolver()]
     }),
     Components({
       resolvers: [
-      // 1. 配置 ElementPlus 采用 sass 样式系统（才能覆盖颜色变量）
-      ElementPlusResolver({ importStyle: 'sass' }),
-      ],
-    }),
+        // 1. 配置 ElementPlus 采用 sass 样式系统（才能覆盖颜色变量）
+        ElementPlusResolver({ importStyle: 'sass' })
+      ]
+    })
   ],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
-    },
+    }
   },
   css: {
     preprocessorOptions: {
@@ -34,7 +34,7 @@ export default defineConfig({
         // 自动引入全局样式变量文件
         additionalData: `
         @use "@/styles/element/index.scss" as *;
-        `,
+        `
       }
     }
   }

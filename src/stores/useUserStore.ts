@@ -1,4 +1,3 @@
-import { id } from 'element-plus/es/locales.mjs'
 import { defineStore } from 'pinia'
 
 interface UserInfo {

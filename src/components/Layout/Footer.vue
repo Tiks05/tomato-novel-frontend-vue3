@@ -5,11 +5,13 @@
         <div class="zone-footer-ctn-left-left">
           <div class="logo-box">
             <img :src="logo" alt="logo" class="logo-img" />
-            <span class="logo-text">CMS</span>
+            <span class="logo-text">番茄小说网</span>
           </div>
 
-          <a href="/protocal/agreement" target="_blank">《CMS网用户协议》</a>
-          <a href="/protocal/privacy" target="_blank" style="margin-top: 4px">《CMS网隐私政策》</a>
+          <a href="/protocal/agreement" target="_blank">《番茄小说网用户协议》</a>
+          <a href="/protocal/privacy" target="_blank" style="margin-top: 4px"
+            >《番茄小说网隐私政策》</a
+          >
           <p style="margin-top: 58px">© 2025 本系统仅供学习与教学使用</p>
         </div>
 
@@ -113,8 +115,7 @@ const logo = new URL('@/assets/icons/logo/icons8-firebase-undefined-32.png', imp
   margin-right: 8px;
 }
 .logo-text {
-  font-size: 22px;
-  font-weight: bold;
+  font-size: 18px;
   color: #333;
 }
 

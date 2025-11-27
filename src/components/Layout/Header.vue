@@ -4,7 +4,7 @@
       <!-- 左侧 Logo -->
       <div class="header-left clickable" @click="goTo('/home')">
         <img :src="logo" class="nav-logo" />
-        <span class="logo-text">CMS</span>
+        <span class="logo-text">番茄小说网</span>
       </div>
 
       <!-- 中间导航 -->
@@ -29,7 +29,9 @@
           @keyup.enter.native="handleSearch"
         >
           <template #suffix>
-            <el-icon><Search /></el-icon>
+            <el-icon>
+              <Search />
+            </el-icon>
           </template>
         </el-input>
 
@@ -171,8 +173,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .logo-text {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 18px;
   color: #222;
 }
 
@@ -193,13 +194,16 @@ onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
   cursor: pointer;
   padding: 4px 0;
 }
+
 .nav-item.active {
   color: #000;
   font-weight: bold;
 }
+
 .nav-item:hover::after {
   width: 100%;
 }
+
 .nav-item::after {
   content: '';
   position: absolute;
@@ -271,6 +275,7 @@ onBeforeUnmount(() => window.removeEventListener('scroll', handleScroll))
   font-size: 14px;
   color: #222;
 }
+
 .auth-link:hover {
   color: #f85959;
   cursor: pointer;

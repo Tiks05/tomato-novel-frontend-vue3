@@ -2,7 +2,7 @@
   <div class="adapt_wrapper">
     <div class="tit">
       <h2>版权改编</h2>
-      <p>热门版权改编动漫、影视尽在CMS——来CMS，追精品IP原著小说</p>
+      <p>热门版权改编动漫、影视尽在番茄小说——来番茄小说，追精品IP原著小说</p>
       <span>查看全部</span>
     </div>
     <div class="marquee-container">
